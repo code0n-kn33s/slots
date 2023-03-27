@@ -1,0 +1,251 @@
+﻿{"frames": {
+
+"cloudExplosion0000":
+{
+	"frame": {"x":0,"y":0,"w":81,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":66,"y":61,"w":214,"h":182},
+	"sourceSize": {"w":214,"h":182}
+},
+"cloudExplosion0001":
+{
+	"frame": {"x":81,"y":0,"w":112,"h":98},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":49,"y":43,"w":214,"h":182},
+	"sourceSize": {"w":214,"h":182}
+},
+"cloudExplosion0002":
+{
+	"frame": {"x":193,"y":0,"w":150,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":25,"w":214,"h":182},
+	"sourceSize": {"w":214,"h":182}
+},
+"cloudExplosion0003":
+{
+	"frame": {"x":343,"y":0,"w":180,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":7,"w":214,"h":182},
+	"sourceSize": {"w":214,"h":182}
+},
+"cloudExplosion0004":
+{
+	"frame": {"x":523,"y":0,"w":190,"h":166},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":7,"w":214,"h":182},
+	"sourceSize": {"w":214,"h":182}
+},
+"cloudExplosion0005":
+{
+	"frame": {"x":713,"y":0,"w":192,"h":167},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":7,"w":214,"h":182},
+	"sourceSize": {"w":214,"h":182}
+},
+"cloudExplosion0006":
+{
+	"frame": {"x":905,"y":0,"w":192,"h":167},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":7,"w":214,"h":182},
+	"sourceSize": {"w":214,"h":182}
+},
+"cloudExplosion0007":
+{
+	"frame": {"x":1097,"y":0,"w":194,"h":168},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":6,"w":214,"h":182},
+	"sourceSize": {"w":214,"h":182}
+},
+"cloudExplosion0008":
+{
+	"frame": {"x":1291,"y":0,"w":194,"h":166},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":9,"w":214,"h":182},
+	"sourceSize": {"w":214,"h":182}
+},
+"cloudExplosion0009":
+{
+	"frame": {"x":1485,"y":0,"w":195,"h":167},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":8,"w":214,"h":182},
+	"sourceSize": {"w":214,"h":182}
+},
+"cloudExplosion0010":
+{
+	"frame": {"x":1680,"y":0,"w":196,"h":167},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":8,"w":214,"h":182},
+	"sourceSize": {"w":214,"h":182}
+},
+"cloudExplosion0011":
+{
+	"frame": {"x":0,"y":168,"w":197,"h":168},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":8,"w":214,"h":182},
+	"sourceSize": {"w":214,"h":182}
+},
+"cloudExplosion0012":
+{
+	"frame": {"x":197,"y":168,"w":198,"h":169},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":7,"w":214,"h":182},
+	"sourceSize": {"w":214,"h":182}
+},
+"cloudExplosion0013":
+{
+	"frame": {"x":395,"y":168,"w":199,"h":169},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":7,"w":214,"h":182},
+	"sourceSize": {"w":214,"h":182}
+},
+"cloudExplosion0014":
+{
+	"frame": {"x":594,"y":168,"w":199,"h":171},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":6,"w":214,"h":182},
+	"sourceSize": {"w":214,"h":182}
+},
+"cloudExplosion0015":
+{
+	"frame": {"x":793,"y":168,"w":201,"h":171},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":6,"w":214,"h":182},
+	"sourceSize": {"w":214,"h":182}
+},
+"cloudExplosion0016":
+{
+	"frame": {"x":994,"y":168,"w":201,"h":172},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":6,"w":214,"h":182},
+	"sourceSize": {"w":214,"h":182}
+},
+"cloudExplosion0017":
+{
+	"frame": {"x":1195,"y":168,"w":202,"h":173},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":5,"w":214,"h":182},
+	"sourceSize": {"w":214,"h":182}
+},
+"cloudExplosion0018":
+{
+	"frame": {"x":1397,"y":168,"w":203,"h":173},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":5,"w":214,"h":182},
+	"sourceSize": {"w":214,"h":182}
+},
+"cloudExplosion0019":
+{
+	"frame": {"x":1600,"y":168,"w":204,"h":175},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":4,"w":214,"h":182},
+	"sourceSize": {"w":214,"h":182}
+},
+"cloudExplosion0020":
+{
+	"frame": {"x":1804,"y":168,"w":205,"h":175},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":4,"w":214,"h":182},
+	"sourceSize": {"w":214,"h":182}
+},
+"cloudExplosion0021":
+{
+	"frame": {"x":0,"y":343,"w":205,"h":175},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":4,"w":214,"h":182},
+	"sourceSize": {"w":214,"h":182}
+},
+"cloudExplosion0022":
+{
+	"frame": {"x":205,"y":343,"w":207,"h":177},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":3,"w":214,"h":182},
+	"sourceSize": {"w":214,"h":182}
+},
+"cloudExplosion0023":
+{
+	"frame": {"x":412,"y":343,"w":207,"h":177},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":3,"w":214,"h":182},
+	"sourceSize": {"w":214,"h":182}
+},
+"cloudExplosion0024":
+{
+	"frame": {"x":619,"y":343,"w":209,"h":177},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":3,"w":214,"h":182},
+	"sourceSize": {"w":214,"h":182}
+},
+"cloudExplosion0025":
+{
+	"frame": {"x":828,"y":343,"w":209,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":2,"w":214,"h":182},
+	"sourceSize": {"w":214,"h":182}
+},
+"cloudExplosion0026":
+{
+	"frame": {"x":1037,"y":343,"w":211,"h":180},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":1,"w":214,"h":182},
+	"sourceSize": {"w":214,"h":182}
+},
+"cloudExplosion0027":
+{
+	"frame": {"x":1248,"y":343,"w":213,"h":181},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":214,"h":182},
+	"sourceSize": {"w":214,"h":182}
+},
+"cloudExplosion0028":
+{
+	"frame": {"x":1461,"y":343,"w":214,"h":182},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":214,"h":182},
+	"sourceSize": {"w":214,"h":182}
+},
+"cloudExplosion0029":
+{
+	"frame": {"x":1675,"y":343,"w":214,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":214,"h":182},
+	"sourceSize": {"w":214,"h":182}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "20.0.1.19255",
+	"image": "cloudExplosion.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":1024},
+	"scale": "1"
+}
+}

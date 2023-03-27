@@ -1,0 +1,5 @@
+@font-face {
+    font-family: "CustomFont";
+    src: url('./FuturaLT-Bold.ttf') format("truetype");
+    font-weight: 400;
+}

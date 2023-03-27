@@ -1,0 +1,51 @@
+/* simple slider start
+  ------------------------------------------------------ */
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css")
+
+.swiper-container-simple
+  margin: 0 -30px
+  padding: 0 30px
+
+  .swiper-btn, .swiper-btn::before
+    position: absolute
+    top: 50%
+    z-index: 10
+    border-style: solid
+    border-color: transparent
+    transform: translateY(-50%)
+  .swiper-btn
+    background: transparent
+    margin: 0
+    padding: 0
+    cursor: pointer
+    &::before
+      content: ''
+      display: inline-block
+    &.prev
+      left: 0
+      border-width: 46px 26px 46px 0
+      border-right-color: #c2222e
+      &::before
+        left: 3px
+        border-width: 38px 21px 38px 0
+        border-right-color: #460d13
+      &:hover
+        border-right-color: #460d13
+      &:hover::before
+        border-right-color: #c2222e
+    &.next
+      right: 0
+      border-width: 46px 0 46px 26px
+      border-left-color: #c2222e
+      &::before
+        right: 3px
+        border-width: 38px 0 38px 21px
+        border-left-color: #460d13
+      &:hover
+        border-left-color: #460d13
+      &:hover::before
+        border-left-color: #c2222e
+
+/* simple slider end
+  ------------------------------------------------------ */

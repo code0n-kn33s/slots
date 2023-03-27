@@ -1,0 +1,141 @@
+.gameLayout
+  overflow: hidden
+  position: absolute
+  width: 100%
+  height: 100%
+  z-index: 10
+  display: flex
+  vertical-align: middle
+  justify-content: center
+  align-items: center
+  background: url("../img/bg-container-t.png") 50% 50%
+  background-size: cover
+
+.gameLayout-mobile
+  //display: block
+  //width: auto
+  //height: auto
+
+
+.gameItem
+  //position: relative
+  //width: 760px
+
+
+.cheatButtons_wrapper
+  position: absolute
+  z-index: 1
+  top: 0
+  left: 0
+
+.slot_payTable
+  z-index: 1
+  position: absolute
+  left: calc(50% - 380px)
+  top: calc(50% - 285px)
+  width: 760px
+  height: 570px
+
+.slot_payTable_bg
+  position: absolute
+  left: 0
+  top: 0
+
+.swiper-container-payTable
+  margin-top: 115px
+
+.slot_payTable_item
+  text-align: left
+  color: white
+  padding-left: 60px
+
+.slot_payTable_item_page1
+  display: flex
+  height: 311px
+
+.slot_payTable_item_page1 .slot_payTable_item_discription
+  padding-left: 15px
+
+.slot_payTable_item_page2
+  position: relative
+
+.slot_payTable_item_page2 .slot_payTable_item_discription
+  position: absolute
+  top: 0
+  left: 0
+
+.slot_payTable_item_discription h1
+  margin-top: 5px
+  margin-bottom: 5px
+
+.slot_payTable_item_discription ul
+  margin-top: 5px
+  margin-bottom: 5px
+
+.slot_payTable_resume_img
+  background: transparent
+  border: none
+  box-shadow: none
+  padding: 0
+  height: auto
+  left: 50%
+  transform: translateX(-50%)
+  position: absolute
+  top: 530px
+  z-index: 99
+
+.customPayTable
+  transform: scale(1.15614)
+
+
+
+.slot_payTable_item_discription_row
+  position: absolute
+  top: 0
+  width: 200px
+
+.slot_payTable_item_page2 .slot_payTable_item_discription_row1
+  left: 150px
+
+.slot_payTable_item_page2 .slot_payTable_item_discription_row2
+  left: 450px
+
+.slot_payTable_prev
+  left: 235px
+
+.slot_payTable_next
+  top: 26px
+  left: 450px
+
+.slot_payTable_resume
+  position: absolute
+  top: 517px
+  left: 330px
+  z-index: 1
+
+.slot_select_buttons
+  z-index: 1
+  overflow: hidden
+  width: 180px
+  text-align: left
+  background-color: rgba(128, 128, 128, 0.90)
+  position: absolute
+  border-radius: 15px
+  border: 2px solid #5b5b5b
+
+.slot_select_buttons_item
+  color: white
+  font-weight: bold
+  display: block
+  padding: 2px 8px
+  border-bottom: 1px solid #5b5b5b
+
+  &:hover
+    background-color: lightgray
+
+  &--disabled
+    background-color: #5f5f5f
+    color: #909090
+
+    &:hover
+      background-color: #5f5f5f

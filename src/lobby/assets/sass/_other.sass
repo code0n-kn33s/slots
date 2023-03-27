@@ -1,0 +1,171 @@
+/* flexboxes begin
+  ------------------------------------------------------ */
+
+.flex
+  display: flex
+  align-items: flex-start
+
+  & > *
+    flex: 0 1 auto
+
+/* flexboxes end
+  ------------------------------------------------------ */
+
+/* margins begin
+  ------------------------------------------------------ */
+
+@for $i from 1 to 21
+  @if ($i % 5 == 0)
+    .m#{$i}
+      margin: #{$i}px
+
+@for $i from 1 to 51
+  @if ($i < 21)
+    @if ($i % 5 == 0)
+      .mt#{$i}
+        margin-top: #{$i}px
+      .mb#{$i}
+        margin-bottom: #{$i}px
+      .mtb#{$i}
+        margin-top: #{$i}px
+        margin-bottom: #{$i}px
+  @else
+    @if ($i % 10 == 0)
+      .mt#{$i}
+        margin-top: #{$i}px
+      .mb#{$i}
+        margin-bottom: #{$i}px
+      .mtb#{$i}
+        margin-top: #{$i}px
+        margin-bottom: #{$i}px
+
+/* margins end
+  ------------------------------------------------------ */
+
+/* paddings begin
+  ------------------------------------------------------ */
+
+@for $i from 1 to 21
+  @if ($i % 5 == 0)
+    .p#{$i}
+      padding: #{$i}px
+
+@for $i from 1 to 51
+  @if ($i < 21)
+    @if ($i % 5 == 0)
+      .pt#{$i}
+        padding-top: #{$i}px
+      .pb#{$i}
+        padding-bottom: #{$i}px
+      .ptb#{$i}
+        padding-top: #{$i}px
+        padding-bottom: #{$i}px
+
+      .pl#{$i}
+        padding-left: #{$i}px
+      .pr#{$i}
+        padding-right: #{$i}px
+      .plr#{$i}
+        padding-left: #{$i}px
+        padding-right: #{$i}px
+  @else
+    @if ($i % 10 == 0)
+      .pt#{$i}
+        padding-top: #{$i}px
+      .pb#{$i}
+        padding-bottom: #{$i}px
+      .ptb#{$i}
+        padding-top: #{$i}px
+        padding-bottom: #{$i}px
+
+      .pl#{$i}
+        padding-left: #{$i}px
+      .pr#{$i}
+        padding-right: #{$i}px
+      .plr#{$i}
+        padding-left: #{$i}px
+        padding-right: #{$i}px
+
+/* paddings end
+  ------------------------------------------------------ */
+
+/* width begin
+  ------------------------------------------------------ */
+
+.w100p
+  width: 100%
+
+.miw100p
+  min-width: 100%
+.miw250
+  min-width: 250px
+
+.maw100p
+  max-width: 100%
+
+/* width end
+  ------------------------------------------------------ */
+
+/* wrapping begin
+  ------------------------------------------------------ */
+
+.nowrap
+  white-space: nowrap
+
+/* wrapping end
+  ------------------------------------------------------ */
+
+/* font-sizes begin
+  ------------------------------------------------------ */
+
+@for $i from 8 to 51
+  @if ($i < 21)
+    .fs#{$i}
+      font-size: #{$i}px
+  @else
+    @if ($i % 2 == 0)
+      .fs#{$i}
+        font-size: #{$i}px
+
+/* font-sizes end
+  ------------------------------------------------------ */
+
+/* font-weight begin
+  ------------------------------------------------------ */
+
+@for $i from 100 to 991
+  @if ($i % 100 == 0)
+    .fw#{$i}
+      font-weight: #{$i}
+
+/* font-weight end
+  ------------------------------------------------------ */
+
+/* text aligment begin
+  ------------------------------------------------------ */
+
+.text
+  &-left
+    text-align: left
+  &-right
+    text-align: right
+  &-center
+    text-align: center
+  &-justify
+    text-align: justify
+
+/* text aligment end
+  ------------------------------------------------------ */
+
+/* colors begin
+  ------------------------------------------------------ */
+
+.orange
+  color: #ffbf39
+
+.blue
+  &-light
+    color: #a9b9d0
+
+/* colors end
+  ------------------------------------------------------ */

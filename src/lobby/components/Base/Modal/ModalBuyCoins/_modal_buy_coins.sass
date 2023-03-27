@@ -1,0 +1,372 @@
+/* modal-buy_coins begin
+  ------------------------------------------------------ */
+
+.modal-buy-coins
+  padding: 40px 0 0
+  .title
+    font-size: 30px
+    font-weight: 700
+    text-shadow: 0 2px 3px #000, 0 -2px 3px #000, 2px 0 3px #000, -2px 0 3px #000, 0px 4px 5px #000
+    color: #F4B122
+
+  .buy-coins
+    &__table
+      position: relative
+      margin-bottom: 60px
+      padding: 0 90px
+      width: 680px
+      max-width: 100%
+
+      .head
+        display: flex
+        align-items: center
+        position: relative
+        border-bottom: 1px solid #043453
+        border-radius: 10px 10px 0 0
+        background: rgb(224,55,55)
+        background: -moz-linear-gradient(top,  rgba(224,55,55,1) 0%, rgba(191,25,26,1) 100%)
+        background: -webkit-linear-gradient(top,  rgba(224,55,55,1) 0%,rgba(191,25,26,1) 100%)
+        background: linear-gradient(to bottom,  rgba(224,55,55,1) 0%,rgba(191,25,26,1) 100%)
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e03737', endColorstr='#bf191a',GradientType=0 )
+        box-shadow: 0 -2px 4px rgba(0, 0, 0, .7)
+        margin: 0 10px 1px
+        height: 45px
+        &::after
+          content: ''
+          display: inline-block
+          position: absolute
+          bottom: 0
+          left: 155px
+          background: url('../../../../../assets/img/tape/tape_segment_begin.png') no-repeat top left
+          width: 57px
+          height: 11px
+
+        .col
+          display: inline-flex
+          justify-content: center
+          align-items: center
+          border-right: 1px solid #DB3F3B
+          height: 25px
+          font-size: 16px
+          font-weight: 700
+          text-transform: uppercase
+          text-shadow: 0 2px 3px rgba(0, 0, 0, .6), 0 -2px 3px rgba(0, 0, 0, .6), 2px 0 3px rgba(0, 0, 0, .6), -2px 0 3px rgba(0, 0, 0, .6)
+          color: #fff
+          &:last-child
+            border-right: none
+
+          &-coins
+            width: 147px
+          &-free
+            width: 73px
+            span
+          &-get, &-price
+            width: calc(50% - 110px)
+
+      .body
+        position: relative
+        &::after
+          content: ''
+          display: inline-block
+          position: absolute
+          top: 100%
+          left: 159px
+          background: url('../../../../../assets/img/tape/tape_segment_end.png') no-repeat top left
+          width: 75px
+          height: 47px
+        .line
+          display: flex
+          align-items: center
+          position: relative
+          border-radius: 6px
+          background: rgb(249,249,249)
+          background: -moz-linear-gradient(top, rgba(249,249,249,1) 0%, rgba(180,180,175,1) 100%)
+          background: -webkit-linear-gradient(top, rgba(249,249,249,1) 0%,rgba(180,180,175,1) 100%)
+          background: linear-gradient(to bottom, rgba(249,249,249,1) 0%,rgba(180,180,175,1) 100%)
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#b4b4af',GradientType=0 )
+          box-shadow: 0 2px 4px rgba(0, 0, 0, .7)
+          margin-bottom: 6px
+          padding: 0 5px
+          height: 36px
+          &::after
+            content: ''
+            display: inline-block
+            position: absolute
+            top: 100%
+            left: 172px
+            z-index: 10
+            background: #fff
+            opacity: 0.2
+            width: 40px
+            height: 1px
+
+          .form-element
+            width: 100%
+
+          .radio
+            label
+              display: inline-flex
+              align-items: center
+              padding-left: 30px
+              width: 100%
+              font-size: 15px
+              font-weight: 700
+              color: #0871B5
+              &::before
+                top: 1px
+              &::after
+                top: 6px
+            input:checked + label::after
+              top: 4px
+
+          .col
+            display: inline-flex
+            align-items: center
+            &-coins
+              justify-content: flex-end
+              width: 125px
+              .plus, .coin-img
+                margin-left: 3px
+            &-free
+              position: relative
+              justify-content: center
+              width: 65px
+              color: #fff
+              &::before
+                content: ''
+                display: inline-block
+                position: absolute
+                top: 50%
+                left: 7px
+                z-index: 5
+                background: url('../../../../../assets/img/tape/tape_segment_4.png') no-repeat center
+                width: 60px
+                height: 42px
+                transform: translateY(-50%)
+              span
+                display: inline-block
+                position: relative
+                z-index: 10
+                font-size: 12px
+            &-get
+              justify-content: flex-end
+              width: 150px
+              .equals
+                margin-right: auto
+              .arr-right
+                margin-left: 15px
+            &-price
+              justify-content: flex-end
+              width: calc(100% - 340px)
+
+          .coin-img
+            width: 22px
+
+          &:nth-child(1)
+            .col-free::before
+              background-image: url('../../../../../assets/img/tape/tape_segment_2.png')
+
+          &:nth-child(2)
+            .col-free::before
+              background-image: url('../../../../../assets/img/tape/tape_segment_1.png')
+
+          &:nth-child(3)
+            .col-free::before
+              background-image: url('../../../../../assets/img/tape/tape_segment_3.png')
+
+          .tooltip-fool
+            margin: -20px 0 0 -5px
+
+      .foot
+        display: flex
+        justify-content: flex-end
+        padding-top: 5px
+        .button
+          border-width: 3px
+          border-radius: 18px
+          height: 36px
+          font-size: 20px
+          font-weight: 600
+
+  .arr-right
+    display: inline-block
+    position: relative
+    border-width: 8px 0 8px 9px
+    border-style: solid
+    border-color: transparent
+    border-left-color: #C9464F
+    margin-left: 9px
+    font-size: 0
+    &::before, &::after
+      content: ''
+      display: inline-block
+      position: absolute
+      top: 50%
+    &::before
+      right: 1px
+      border-width: 6px 0 6px 7px
+      border-style: solid
+      border-color: transparent
+      border-left-color: #fff
+      margin-top: -6px
+    &::after
+      position: absolute
+      top: 50%
+      right: 7px
+      border: 1px solid #C9464F
+      border-right: none
+      background: #fff
+      margin-top: -5px
+      width: 9px
+      height: 8px
+
+  .plus
+    display: inline-block
+    position: relative
+    border: 1px solid #C9464F
+    background: #fff
+    width: 13px
+    height: 5px
+    &::before, &::after
+      content: ''
+      display: inline-block
+      position: absolute
+      background: #fff
+    &::before
+      border: 1px solid #C9464F
+      top: -5px
+      left: 3px
+      width: 3px
+      height: 11px
+    &::after
+      top: 0
+      left: 3px
+      width: 5px
+      height: 3px
+
+  .equals
+    display: inline-flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    position: relative
+    &::before, &::after
+      content: ''
+      display: inline-block
+      border: 1px solid #C9464F
+      background: #fff
+      width: 9px
+      height: 3px
+    &::before
+      margin-bottom: 1px
+
+  .payment_methods
+    display: flex
+    justify-content: flex-end
+    align-items: center
+    padding-right: 90px
+    img
+      margin-left: 5px
+
+@media only screen and (max-width: 991px)
+  .modal-buy-coins
+    .buy-coins
+      &__table
+        padding: 0 100px 0 70px
+
+@media only screen and (max-width: 767px)
+  .modal-buy-coins
+    .title
+      font-size: 24px
+    .buy-coins
+      &__table
+        margin: 0 auto 60px
+        padding: 0 70px 0 0
+        width: 485px
+        .head
+          &::after
+            left: 145px
+          .col
+            &-coins
+              width: 155px
+            &-free
+              width: 85px
+            &-get
+              width: 120px
+        .body
+          &::after
+            left: 149px
+          .line
+            &::after
+              left: 163px
+            .radio
+              label
+                font-size: 13px
+            .col
+              &-coins
+                width: 115px
+              &-get
+                width: 120px
+              &-price
+                width: calc(100% - 300px)
+            .tooltip-fool
+              margin: -25px 0 0 -15px
+              transform: scale(.8)
+
+@media only screen and (max-width: 567px)
+  .modal-buy-coins
+    .title
+      font-size: 20px
+    .buy-coins
+      &__table
+        padding: 0 55px 0 0
+        width: 435px
+        .head
+          height: 35px
+          &::after
+            left: 130px
+          .col
+            font-size: 12px
+            &-coins
+              width: 135px
+            &-free
+              width: 85px
+            &-get
+              width: 105px
+            &-price
+              width: calc(50% - 100px)
+        .body
+          &::after
+            left: 134px
+          .line
+            &::after
+              left: 147px
+            .radio
+              label
+                padding-left: 25px
+                font-size: 11px
+                &::before
+                  top: 4px
+                  width: 18px
+                  height: 18px
+                &::after
+                  top: 9px
+                  width: 10px
+                  height: 10px
+              input:checked + label::after
+                top: 7px
+                width: 12px
+                height: 12px
+            .col
+              &-coins
+                width: 105px
+              &-get
+                width: 110px
+              &-price
+                width: calc(100% - 280px)
+            .tooltip-fool
+              margin: -30px 0 0 -20px
+              transform: scale(.7)
+
+/* modal-buy_coins begin
+  ------------------------------------------------------ */

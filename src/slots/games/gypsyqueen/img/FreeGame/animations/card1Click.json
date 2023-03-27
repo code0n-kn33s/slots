@@ -1,0 +1,123 @@
+﻿{"frames": {
+
+"card1Click0000":
+{
+	"frame": {"x":0,"y":0,"w":130,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":130,"h":67},
+	"sourceSize": {"w":130,"h":67}
+},
+"card1Click0001":
+{
+	"frame": {"x":0,"y":67,"w":130,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":130,"h":67},
+	"sourceSize": {"w":130,"h":67}
+},
+"card1Click0002":
+{
+	"frame": {"x":0,"y":67,"w":130,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":130,"h":67},
+	"sourceSize": {"w":130,"h":67}
+},
+"card1Click0003":
+{
+	"frame": {"x":0,"y":67,"w":130,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":130,"h":67},
+	"sourceSize": {"w":130,"h":67}
+},
+"card1Click0004":
+{
+	"frame": {"x":0,"y":0,"w":130,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":130,"h":67},
+	"sourceSize": {"w":130,"h":67}
+},
+"card1Click0005":
+{
+	"frame": {"x":0,"y":0,"w":130,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":130,"h":67},
+	"sourceSize": {"w":130,"h":67}
+},
+"card1Click0006":
+{
+	"frame": {"x":0,"y":0,"w":130,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":130,"h":67},
+	"sourceSize": {"w":130,"h":67}
+},
+"card1Click0007":
+{
+	"frame": {"x":0,"y":67,"w":130,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":130,"h":67},
+	"sourceSize": {"w":130,"h":67}
+},
+"card1Click0008":
+{
+	"frame": {"x":0,"y":67,"w":130,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":130,"h":67},
+	"sourceSize": {"w":130,"h":67}
+},
+"card1Click0009":
+{
+	"frame": {"x":0,"y":67,"w":130,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":130,"h":67},
+	"sourceSize": {"w":130,"h":67}
+},
+"card1Click0010":
+{
+	"frame": {"x":0,"y":0,"w":130,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":130,"h":67},
+	"sourceSize": {"w":130,"h":67}
+},
+"card1Click0011":
+{
+	"frame": {"x":0,"y":0,"w":130,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":130,"h":67},
+	"sourceSize": {"w":130,"h":67}
+},
+"card1Click0012":
+{
+	"frame": {"x":0,"y":0,"w":130,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":130,"h":67},
+	"sourceSize": {"w":130,"h":67}
+},
+"card1Click0013":
+{
+	"frame": {"x":0,"y":67,"w":130,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":130,"h":67},
+	"sourceSize": {"w":130,"h":67}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "20.0.1.19255",
+	"image": "card1Click.png",
+	"format": "RGBA8888",
+	"size": {"w":256,"h":256},
+	"scale": "1"
+}
+}

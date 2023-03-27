@@ -1,0 +1,96 @@
+/* game-icon start
+  ------------------------------------------------------ */
+
+.game-icon
+  position: relative
+  padding: 5px
+  width: 25%
+  text-align: center
+  cursor: pointer
+  &::before
+    content: ''
+    display: block
+    position: absolute
+    top: 10%
+    left: 10%
+    z-index: 5
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(249,249,249,1) 0%, rgba(253,253,253,0) 60%, rgba(255,255,255,0) 100%)
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(249,249,249,1) 0%,rgba(253,253,253,0) 60%,rgba(255,255,255,0) 100%)
+    background: radial-gradient(ellipse at center,  rgba(249,249,249,1) 0%,rgba(253,253,253,0) 60%,rgba(255,255,255,0) 100%)
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#00ffffff',GradientType=1 )
+    opacity: 0
+    width: 80%
+    height: 80%
+  &:hover::before
+    opacity: 1
+
+  .logo
+    position: relative
+    z-index: 10
+    max-width: 100%
+    -webkit-filter: contrast(100%)
+    -moz-filter: contrast(100%)
+    -ms-filter: contrast(100%)
+    -o-filter: contrast(100%)
+    filter: contrast(100%)
+  &:hover
+    .logo
+      opacity: 0.75
+      -webkit-filter: contrast(150%)
+      -moz-filter: contrast(150%)
+      -ms-filter: contrast(150%)
+      -o-filter: contrast(150%)
+      filter: contrast(150%)
+
+  &.disabled
+    opacity: 1
+    .logo
+      opacity: 1 !important
+      -webkit-filter: grayscale(100%)
+      -moz-filter: grayscale(100%)
+      -ms-filter: grayscale(100%)
+      -o-filter: grayscale(100%)
+      filter: grayscale(100%)
+    &:hover
+      .logo
+        -webkit-filter: grayscale(0)
+        -moz-filter: grayscale(0)
+        -ms-filter: grayscale(0)
+        -o-filter: grayscale(0)
+        filter: grayscale(0)
+    &::before
+      display: none
+    &::after
+      content: ''
+      display: inline-block
+      position: absolute
+      top: 50%
+      left: 50%
+      z-index: 15
+      background: url('../../assets/img/room_icons/iconLock.png') no-repeat center
+      width: 40px
+      height: 40px
+      transform: translate(-50%, -50%)
+
+
+.swiper-slide
+  .game-icon
+    transform: scale(0)
+    transition: transform .3s
+    transition-delay: 1s
+  &-active
+    .game-icon
+      transform: scale(1)
+      @for $i from 1 through 6
+        &:nth-child(#{$i})
+          transition-delay: ($i / 20) + .7s
+
+@media only screen and (max-height: 449px)
+  .game-icon
+    padding: 2px
+    height: 55px
+    img
+      max-height: 100%
+
+/* game-icon end
+  ------------------------------------------------------ */

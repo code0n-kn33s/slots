@@ -1,0 +1,249 @@
+/* ------------------------------------------------------
+  --- HEADER begin --------------------------------------
+  ------------------------------------------------------ */
+
+.header
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  background: url('../../assets/img/header_bg.jpg') repeat center
+  background-size: auto 100%
+  padding: 15px 20px 0
+  height: 85px
+
+  &__line
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+/* first line start
+  ------------------------------------------------------ */
+
+.header
+  &__line.line_first
+    margin: 0 -15px
+    .btn__outer-black
+      margin: 0 15px
+
+  &__coins_outer
+    width: auto
+
+  &__icon.icon-coins
+    position: absolute
+    top: 50%
+    left: -5px
+    transform: translateY(-50%)
+
+  &__coins
+    margin: 0 10px 0 30px
+    font-size: 16px
+    font-weight: 800
+    color: #fff
+
+  &__icon.icon-sale
+    position: absolute
+    top: -80%
+    right: -15px
+
+  &__bonuses_outer
+    width: 115px
+    justify-content: center
+  &__bonuses
+    padding-left: 15px
+    font-size: 14px
+    font-weight: 800
+    color: #fff
+  &__icon.icon-bonus
+    position: absolute
+    top: 50%
+    left: -10px
+    transform: translateY(-50%)
+
+  &__exp_outer
+    justify-content: center
+    flex-grow: 1
+
+    .value
+      position: relative
+      z-index: 10
+      font-size: 14px
+      font-weight: 800
+      text-shadow: 1px -1px 1px #000
+      color: #fff
+
+    .line
+      position: absolute
+      top: 2px
+      left: 0
+      z-index: 5
+      background: #972c41
+      background: -moz-linear-gradient(top,  #972c41 0%, #f83860 50%, #972c41 100%)
+      background: -webkit-linear-gradient(top,  #972c41 0%,#f83860 50%,#972c41 100%)
+      background: linear-gradient(to bottom,  #972c41 0%,#f83860 50%,#972c41 100%)
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#972c41', endColorstr='#972c41',GradientType=0 )
+      width: 0
+      height: calc(100% - 4px)
+      transition: max-width .3s
+
+    .header__icon
+      position: absolute
+      top: 50%
+      z-index: 20
+      transform: translateY(-50%)
+      &.icon-star
+        left: -15px
+      &.icon-medal
+        right: -15px
+
+.level_tooltip
+  width: 100%
+  
+  .subtitle
+    margin-top: 10px
+    font-weight: 700
+    text-align: center
+    &:first-child
+      margin-top: 0
+
+  .tooltip_line
+    display: flex
+    align-items: center
+    text-align: left
+    .icon
+      align-self: flex-start
+      width: 30px
+      img
+        width: auto
+        height: auto
+        max-width: 25px
+    .text
+      margin: 0
+      width: calc(100% - 30px)
+      font-size: 14px
+
+@media only screen and (max-width: 767px)
+  .header
+    &__exp_outer
+      .tooltip
+        left: auto
+        right: 0
+        transform: translateX(0)
+        .triangle
+          left: auto
+          right: 15px
+
+@media only screen and (max-height: 449px)
+  .header
+    padding: 10px 15px 0
+    height: 75px
+    .btn__outer-black
+      height: 16px
+
+    &__coins_outer.btn__outer-black
+      height: 24px
+    &__coins
+      font-size: 13px
+    &__bonuses, &__exp_outer .value
+      font-size: 11px
+    &__icon.icon-coins
+      width: 30px
+
+    &__bonuses_outer.btn__outer-black
+      margin: 0 5px 0 10px !important
+      width: 90px
+    &__icon.icon-bonus
+      width: 28px
+
+    &__icon.icon-star
+      width: 30px
+    &__icon.icon-medal
+      width: 30px
+  &__exp_outer
+    .tooltip__innet
+    padding: 0 10px
+  .level_tooltip
+    overflow: auto
+    margin: 0
+    padding: 5px 0
+    max-height: 210px
+    font-size: 12px
+    .tooltip_line
+      .icon img
+        max-width: 15px
+      .text
+        font-size: 11px
+    .fs14
+      font-size: 10px
+
+/* first line end
+  ------------------------------------------------------ */
+
+/* second line start
+  ------------------------------------------------------ */
+.header
+
+  &__line.line_second
+    padding-bottom: 10px
+
+  &__bottom_line
+    align-self: flex-end
+    margin-bottom: -10px
+    width: 100%
+    height: 26px
+    font-size: 0
+
+    .center
+      width: calc(100% - 39px * 2)
+      height: 26px
+
+  &__bottom-buttons
+    display: flex
+    margin: 0 -5px
+
+    .button
+      margin: 0 5px
+      padding: 0 7px
+      width: 35px
+      img
+        height: auto
+
+#header__btn-play
+  white-space: nowrap
+
+#header__btn-resize
+  img
+    width: 27px
+
+#header__btn-sounds
+  img
+    width: 24px
+
+/* second line end
+  ------------------------------------------------------ */
+
+/* customize 4 mobile app
+  ------------------------------------------------------ */
+.header.ingame
+  height: 47px
+
+  .line_first
+    margin: 0
+
+  .line_second
+    display: none
+
+  .header__coins_outer
+    flex-basis: 100%
+
+    .header__coins
+      margin: 0 auto
+
+  .header__bonuses_outer
+    flex-basis: 50%
+
+  .header__exp_outer
+    flex-basis: 100%
+
+/* ------------------------------------------------------
+  --- HEADER end ----------------------------------------
+  ------------------------------------------------------ */

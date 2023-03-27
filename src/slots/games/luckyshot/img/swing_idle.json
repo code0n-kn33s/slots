@@ -1,0 +1,55 @@
+﻿{
+  "frames": {
+    "swing_idle0000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 450,
+        "h": 570
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 450,
+        "h": 570
+      },
+      "sourceSize": {
+        "w": 450,
+        "h": 570
+      }
+    },
+    "swing_idle0001": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 450,
+        "h": 570
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 450,
+        "h": 570
+      },
+      "sourceSize": {
+        "w": 450,
+        "h": 570
+      }
+    }
+  },
+  "meta": {
+    "app": "Adobe Animate",
+    "version": "20.0.0.17400",
+    "image": "swing_idle.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 512,
+      "h": 1024
+    },
+    "scale": "1"
+  }
+}

@@ -1,0 +1,475 @@
+﻿{"frames": {
+
+"bowlCatsPassBall0000":
+{
+	"frame": {"x":0,"y":0,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0001":
+{
+	"frame": {"x":0,"y":0,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0002":
+{
+	"frame": {"x":420,"y":0,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0003":
+{
+	"frame": {"x":840,"y":0,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0004":
+{
+	"frame": {"x":840,"y":0,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0005":
+{
+	"frame": {"x":840,"y":0,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0006":
+{
+	"frame": {"x":1260,"y":0,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0007":
+{
+	"frame": {"x":1260,"y":0,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0008":
+{
+	"frame": {"x":0,"y":250,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0009":
+{
+	"frame": {"x":420,"y":250,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0010":
+{
+	"frame": {"x":420,"y":250,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0011":
+{
+	"frame": {"x":420,"y":250,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0012":
+{
+	"frame": {"x":840,"y":250,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0013":
+{
+	"frame": {"x":840,"y":250,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0014":
+{
+	"frame": {"x":1260,"y":250,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0015":
+{
+	"frame": {"x":0,"y":500,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0016":
+{
+	"frame": {"x":0,"y":500,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0017":
+{
+	"frame": {"x":0,"y":500,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0018":
+{
+	"frame": {"x":420,"y":500,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0019":
+{
+	"frame": {"x":420,"y":500,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0020":
+{
+	"frame": {"x":840,"y":500,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0021":
+{
+	"frame": {"x":1260,"y":500,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0022":
+{
+	"frame": {"x":1260,"y":500,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0023":
+{
+	"frame": {"x":1260,"y":500,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0024":
+{
+	"frame": {"x":0,"y":750,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0025":
+{
+	"frame": {"x":0,"y":750,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0026":
+{
+	"frame": {"x":420,"y":750,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0027":
+{
+	"frame": {"x":840,"y":750,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0028":
+{
+	"frame": {"x":840,"y":750,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0029":
+{
+	"frame": {"x":840,"y":750,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0030":
+{
+	"frame": {"x":1260,"y":750,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0031":
+{
+	"frame": {"x":1260,"y":750,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0032":
+{
+	"frame": {"x":0,"y":1000,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0033":
+{
+	"frame": {"x":420,"y":1000,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0034":
+{
+	"frame": {"x":420,"y":1000,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0035":
+{
+	"frame": {"x":420,"y":1000,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0036":
+{
+	"frame": {"x":840,"y":1000,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0037":
+{
+	"frame": {"x":840,"y":1000,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0038":
+{
+	"frame": {"x":1260,"y":1000,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0039":
+{
+	"frame": {"x":0,"y":1250,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0040":
+{
+	"frame": {"x":0,"y":1250,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0041":
+{
+	"frame": {"x":0,"y":1250,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0042":
+{
+	"frame": {"x":420,"y":1250,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0043":
+{
+	"frame": {"x":420,"y":1250,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0044":
+{
+	"frame": {"x":840,"y":1250,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0045":
+{
+	"frame": {"x":1260,"y":1250,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0046":
+{
+	"frame": {"x":1260,"y":1250,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0047":
+{
+	"frame": {"x":1260,"y":1250,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0048":
+{
+	"frame": {"x":0,"y":1500,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0049":
+{
+	"frame": {"x":0,"y":1500,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0050":
+{
+	"frame": {"x":420,"y":1500,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0051":
+{
+	"frame": {"x":840,"y":1500,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0052":
+{
+	"frame": {"x":840,"y":1500,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0053":
+{
+	"frame": {"x":840,"y":1500,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0054":
+{
+	"frame": {"x":1260,"y":1500,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0055":
+{
+	"frame": {"x":1260,"y":1500,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0056":
+{
+	"frame": {"x":0,"y":1750,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+},
+"bowlCatsPassBall0057":
+{
+	"frame": {"x":420,"y":1750,"w":420,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":250},
+	"sourceSize": {"w":420,"h":250}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "19.2.1.408",
+	"image": "bowlCatsPassBall.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "1"
+}
+}

@@ -1,0 +1,89 @@
+/* tournaments begin
+  ------------------------------------------------------ */
+
+.tournaments
+  display: flex
+  flex-direction: column
+  border-radius: 0 0 12px 12px
+  background: #343434
+  height: 100%
+  overflow: auto
+
+  &__top
+    padding: 15px
+    display: flex
+    align-items: flex-end
+    .col
+      &-left
+        width: 55%
+        text-align: left
+      &-right
+        width: 45%
+        text-align: right
+
+  .title
+    margin: 0
+    font-family: Impact, Charcoal, sans-serif
+    font-size: 46px
+    text-transform: uppercase
+    text-shadow: 1px 1px 2px #000
+    color: #BCBCBC
+
+  .txt
+    margin: 0
+    font-size: 16px
+    font-weight: 500
+    text-shadow: 1px 1px 2px #000
+    color: #FEBC3C
+
+  .number
+    display: inline-block
+    background: #000
+    margin-top: 5px
+    width: 100px
+    height: 35px
+    padding: 0 5px
+    line-height: 35px
+    font-family: Impact, Charcoal, sans-serif
+    color: #fff
+
+  &__table
+    overflow: auto
+    height: 100%
+
+    table
+      border-collapse: collapse
+      width: 100%
+
+    thead
+      tr
+        border-top: 1px solid #000
+        border-bottom: 1px solid #000
+        background: rgb(84,84,84)
+        background: -moz-linear-gradient(top,  rgba(84,84,84,1) 0%, rgba(56,56,56,1) 100%)
+        background: -webkit-linear-gradient(top,  rgba(84,84,84,1) 0%,rgba(56,56,56,1) 100%)
+        background: linear-gradient(to bottom,  rgba(84,84,84,1) 0%,rgba(56,56,56,1) 100%)
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#545454', endColorstr='#383838',GradientType=0 )
+      td
+        font-size: 16px
+        font-weight: 500
+        text-shadow: 1px 1px 2px #000
+        text-align: left
+        color: #FEBC3C
+        &:first-child
+          text-align: center
+
+@media only screen and (max-height: 449px)
+  .tournaments
+    &__top
+      padding: 5px 10px 10px
+    .title
+      font-size: 26px
+    .txt
+      font-size: 13px
+    .number
+      height: 30px
+      line-height: 30px
+
+/* tournaments end
+  ------------------------------------------------------ */

@@ -1,0 +1,57 @@
+.job_template: &job_system  # Hidden key that defines an anchor named 'job_system'
+
+  image: "node:10.16.3-stretch"
+  tags:
+      - docker
+
+  cache:
+    paths:
+    - node_modules/
+
+before_script:
+  - echo "Before script. None at this moment"
+  
+after_script:
+  - echo "After script. None at this moment"
+  
+build-develop:
+  <<: *job_system 
+  stage: build
+  script:
+    - echo "Doing build"
+    - npm install
+    - npm run build
+  artifacts:    
+    paths:
+    - dist/
+  only:
+  - develop
+
+  
+test-develop:
+  <<: *job_system 
+  stage: test
+  script:
+    - echo "Run tests. None at this moment."
+  only:
+  - develop
+
+
+deploy-develop:
+  <<: *job_system 
+  stage: deploy
+  script:
+    - apt-get update -y
+    - apt-get --yes --force-yes install openssh-client rsync
+    - echo "$DEVELOP_FRONTEND_PRIVATE_KEY" > id_ed25519
+    - chmod 700 id_ed25519
+    - mkdir ~/.ssh
+    - echo "$DEVELOP_FRONTEND_KNOWN_HOSTS" >~/.ssh/known_hosts
+    - rsync -hrvz --delete -e 'ssh -i id_ed25519 -o StrictHostKeyChecking=no' dist/ deploy@178.128.207.144:$DEVELOP_FRONTEND_PATH
+    - rsync -hrvz --delete -e 'ssh -i id_ed25519 -o StrictHostKeyChecking=no' dist/ deploy@134.209.229.25:$DEVELOP_FRONTEND_PATH
+    - echo "clean cloudflare caches"
+    - "curl -X DELETE \"https://api.cloudflare.com/client/v4/zones/07d5008fbf1c67964d51c87d58f56ee1/purge_cache\" -H \"Authorization: Bearer oDaL9emVUkcAtx43RxEoJNbx7A_9diROQyFCeGy8\" -H \"Content-Type:application/json\" --data '{\"purge_everything\":true}'"
+    - "curl -X DELETE \"https://api.cloudflare.com/client/v4/zones/e9b751178e4a60034542cb8241b42cad/purge_cache\" -H \"Authorization: Bearer oDaL9emVUkcAtx43RxEoJNbx7A_9diROQyFCeGy8\" -H \"Content-Type:application/json\" --data '{\"purge_everything\":true}'"
+
+  only:
+  - develop
